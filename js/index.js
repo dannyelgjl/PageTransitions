@@ -1,7 +1,10 @@
-import test from "./test";
+import Highway from "@dogstudio/highway";
+import Fade from "./transition";
 
-const run = () => {
-  console.log("run");
-};
+const H = new Highway.Core({
+  transitions: {
+    default: Fade,
+  },
+});
 
-test();
+export default H;

@@ -33,19 +33,18 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
+  img {
+    height: 70%;
+  }
 
-h1 {
-  font-size: 50px;
-  margin: 30px 0px;
-}
+  h1 {
+    font-size: 50px;
+    margin: 30px 0px;
+  }
 
-img {
-  height: 70%;
-}
-
-p {
-  font-size: 20px;
+  p {
+    font-size: 20px;
+  }
 }
 
 .home {
